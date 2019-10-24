@@ -1,6 +1,10 @@
 {
   "name": "file-saver",
+<<<<<<< HEAD
   "version": "2.0.2",
+=======
+  "version": "1.4.0",
+>>>>>>> e42027e3e3732dbf8c132a1f8b69a20098c62c28
   "description": "An HTML5 saveAs() FileSaver implementation",
   "main": "dist/FileSaver.min.js",
   "files": [
@@ -26,15 +30,23 @@
     "blob"
   ],
   "author": "Eli Grey <me@eligrey.com>",
+  "contributors": "Ralic Lo <raliclo@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eligrey/FileSaver.js/issues"
   },
   "homepage": "https://github.com/eligrey/FileSaver.js#readme",
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/plugin-transform-modules-umd": "^7.1.0",
     "babel-preset-minify": "^0.4.3"
+=======
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.2.0"
+>>>>>>> e42027e3e3732dbf8c132a1f8b69a20098c62c28
   }
 }
